@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(135deg, #2e3b2f, #3c4a3d); /* degrade verde escuro */
+  font-family: Georgia, serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mensagem {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.05); /* leve transparência */
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+  margin: auto;
+}
+
+.mensagem h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #e0f2f1;
+}
+
+.mensagem p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #d0e6dd;
+}
+
+.botao-voltar {
+  margin-top: 30px;
+  background-color: #607d8b;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-voltar:hover {
+  background-color:#0f1417;
+}
